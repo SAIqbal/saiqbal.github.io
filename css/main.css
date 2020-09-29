@@ -70,6 +70,7 @@ body {
   line-height: 1.75;
   font-family: "Open Sans", "Segoe UI", sans-serif;
   font-size: 14px;
+	font-family: 'Advent Pro'
 }
 
 a,
@@ -93,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   margin-bottom: 30px;
   line-height: 1.5;
+	font-family: 'Advent Pro'
 }
 
 h1 {
