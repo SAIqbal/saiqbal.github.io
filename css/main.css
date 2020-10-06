@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
+.head-content h5 {
+	font-family: 'Advent Pro'
+}
+
 h1 {
   font-size: 4.209em;
 }
