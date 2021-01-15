@@ -32,26 +32,31 @@
 		});
 	};
 
+	$(document).on("click","#sofar-menu .menu-link",function(){
+		$(".initialCurrent").click();
+	});
+	
 	// Portfolio Filter
 	metronal.portfolioFilter = {
 		// Item container
-		container: $('#portfolio .portfolio-item .item-wrapper'),
+		container: $('.portfolio-item .item-wrapper'),
 		// Init function
 		init: function() {
 			// Checking if all images are loaded
 			metronal.portfolioFilter.container.imagesLoaded(function() {
 				// Init isotope once all images are loaded
 				metronal.portfolioFilter.container.isotope({
-					itemSelector: '#portfolio .portfolio-item .item-wrapper .item',
+					itemSelector: '.portfolio-item .item-wrapper .item',
 					layoutMode: 'masonry',
 					transitionDuration: '0.8s'
 				});
 				// Forcing a perfect masonry layout after initial load
 				metronal.portfolioFilter.container.isotope('layout');
 				// Filter items when the button is clicked
-				$('#portfolio .portfolio-filter ul li').on('click', 'a', function() {
+				$('.portfolio-filter ul li').on('click', 'a', function() {
 					// Remove the current class from the previous element
-					$('#portfolio .portfolio-filter ul li .current').removeClass('current');
+					$(this).closest(".portfolio-filter").find(".current").removeClass("current");
+					//$('.portfolio-filter ul li .current').removeClass('current');
 					// Add the current class to the button clicked
 					$(this).addClass('current');
 					// Data filter
@@ -71,7 +76,7 @@
 	// Use Magnific Popup
 	metronal.useMagnificPopup = function() {
 		// For portfolio item
-		$('#portfolio .portfolio-item .item-wrapper .item').magnificPopup({
+		$('.portfolio-item .item-wrapper .item').magnificPopup({
 			delegate: 'a',
 			type: 'inline',
 			removalDelay: 300,
