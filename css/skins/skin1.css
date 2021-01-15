@@ -453,50 +453,50 @@
   color: #00f7ef;
 }
 
-.main-content#portfolio .hanging .logo-hanging i,
-.main-content#portfolio .hanging .text-hanging .word h6>span {
+.main-content.portfolioPage .hanging .logo-hanging i,
+.main-content.portfolioPage .hanging .text-hanging .word h6>span {
   color: #43e97b;
 }
 
-.main-content#portfolio .inner-content .content #projects>.row {
+.main-content.portfolioPage .inner-content .content #projects>.row {
   background: rgb(54, 59, 95);
 }
 
-.main-content#portfolio .inner-content .content #projects h5:after {
+.main-content.portfolioPage .inner-content .content #projects h5:after {
   background: #43e97b;
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-filter ul li a {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-filter ul li a {
   color: #a8a8a8;
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-filter ul li a.current {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-filter ul li a.current {
   background: rgb(54, 59, 95);
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay {
   background: rgba(44, 48, 81, 0.9);
   border-color: #fff;
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more>.back {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more>.back {
   background: rgb(44, 48, 81);
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more>.front>.value>span,
-.main-content#portfolio .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more>.back>.value>span {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more>.front>.value>span,
+.main-content.portfolioPage .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .view-more>.back>.value>span {
   color: #00f7ef;
 }
 
-.main-content#portfolio .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .image-info .project-name {
+.main-content.portfolioPage .inner-content .content #projects .portfolio-item .item-wrapper .item .overlay .image-info .project-name {
   color: #00f7ef;
 }
 

@@ -14,7 +14,7 @@
 
 	// Init Main Content
 	metronal.mainContent = {
-		list: ["#home", "#about", "#resume", "#portfolio", "#contact"],
+		list: ["#home", "#about", "#resume", "#portfolio", "#contact", "#sofar"],
 		on: "",
 		off: ""
 	};
